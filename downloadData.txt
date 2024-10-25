@@ -1,2 +1,0 @@
-conda install kaggle
-kaggle datasets download -d ravidussilva/real-ai-art --unzip -p /work/cssema416/202510/10/AI-Art-Detection
