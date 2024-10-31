@@ -1,1 +1,0 @@
-find AI-Art-Detection/ -mindepth 1 -maxdepth 1 -exec chmod 777 {} \;
