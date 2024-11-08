@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
-  </head>
-
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Art Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Art Detection</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Upload your artwork</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="artwork" id="artwork" accept="image/*" required>
+                <button id="submit" type="submit">Detect</button>
+            </form>
+        </section>
+        <section>
+            <h2>Results</h2>
+            <div id="results"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 AI Art Detection</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
 </html>
