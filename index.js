@@ -1,6 +1,6 @@
 document.getElementById('uploadForm').addEventListener('submit', function(event) {
   event.preventDefault();  // Prevent default form submission
-
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
   const fileInput = document.getElementById('artwork');
   const formData = new FormData();  // Create a FormData object
 
