@@ -13,7 +13,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
   formData.append('file', fileInput.files[0]);  // Append the file to the FormData object
 
   // Define the API endpoint
-  const url = "http://3.129.52.177:5000/api/upload";
+  const url = "https://18.222.206.99:5000/api/upload";
 
   // Send a POST request with the form data
   fetch(url, {
