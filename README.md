@@ -39,7 +39,7 @@ open and run ResNetFeatureExtraction.ipynb with data_file = "Art-Dataset"
 
 ### Train NN
 ```
-open and run GenreNeuralNetwork.ipynb with file_name="256_No_AI_features_resnet.npz"
+open and run GenreNeuralNetwork.ipynb with file_name="256_Art-Dataset_features_resnet.npz"
 ```
 
 ### Run NN on Image

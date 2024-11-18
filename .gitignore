@@ -4,3 +4,4 @@ Scripts/
 .ipynb_checkpoints/
 model_params_7395.pt
 model_params.pt
+*.jpg
