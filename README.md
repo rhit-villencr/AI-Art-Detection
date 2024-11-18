@@ -44,6 +44,7 @@ open and run GenreNeuralNetwork.ipynb with file_name="256_Art-Dataset_features_r
 
 ### Run NN on Image
 ```
+open and run SingleImageClassifier.ipynb with classifier_path = 'model_params.pt'
 ```
 
 
